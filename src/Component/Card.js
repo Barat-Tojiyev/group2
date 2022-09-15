@@ -4,7 +4,13 @@ import React ,{ Component } from "react";
 class Card extends Component{
     render(){
         return(
-            <h1 className=" bg-white  text-7xl  p-8 text-blue-600">Card</h1>
+            <div className=" bg-white   w-[600px] rounded-lg  p-8 text-blue-600">
+              <h1 className="text-4xl">Sign Up</h1>
+              <div>
+                <input className="px-3 py-3"/>
+              </div>
+              
+                </div>
         )
     }
 }
